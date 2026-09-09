@@ -1,0 +1,15 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# 데이터셋은 Kaggle 에서 받는다. 저장소에 넣지 않는다.
+garbage_classification/
+data/
+
+# 학습 산출물
+*.h5
+*.keras
+*.onnx
+artifacts/
